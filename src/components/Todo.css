@@ -1,0 +1,45 @@
+.container {
+    width: 600px;
+    text-align: center;
+}
+
+.newTodoForm {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newTodoForm > input {
+    width: 90%;
+}
+
+.button, .newTodoForm > input {
+    border: 1px solid rgb(180, 177, 177);
+    line-height: 2rem;
+    background-color: white;
+    margin: 0 0.5rem;
+}
+
+.list {
+    padding: 0;
+}
+
+.list > li {
+    list-style: none;
+    margin: 0;
+    border-top: 1px solid rgb(215, 210, 210);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.buttonDelete {
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(191, 187, 187);
+    color: white;
+    font-weight: 600;
+    margin: 1rem;
+}
