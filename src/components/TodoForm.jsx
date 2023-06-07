@@ -10,6 +10,7 @@ const TodoForm = ({ onSubmit }) => {
 
   return (
     <form onSubmit={handleSubmit} className="newTodoForm">
+      {/* // handleSubmit naudoja addTodo funkciją iš app.js */}
       <input
         value={newTodo}
         onChange={(e) => setNewTodo(e.target.value)} // setNewTodo paima imputo vertę ir nustato newTodo

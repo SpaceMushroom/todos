@@ -15,7 +15,7 @@ const TodoList = ({ todos, toggleTodo, deleteTodo }) => {
                 <input
                   type="checkbox"
                   checked={todo.completed}
-                  onChange={(e) => toggleTodo(todo.id, e.target.checked)} //čia paima true arba false statusą iš checkboxo
+                  onChange={(e) => toggleTodo(todo.id, e.target.checked)}
                 />
                 {todo.title}
               </label>
